@@ -52,6 +52,9 @@ input {
   bottom: 0;
   left: 0;
   display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -88,6 +91,9 @@ input {
   color: rgb(27, 61, 100);
 
   display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
   text-align: center;
   font-weight: 400;
@@ -114,6 +120,9 @@ input {
   left: 1rem;
   padding: 00.5rem 1rem;
   display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -135,6 +144,9 @@ button {
   left: 0;
   right: 0;
   display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
   flex-direction: column;
   align-items: center;
   justify-content: center;
