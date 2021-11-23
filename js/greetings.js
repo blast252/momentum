@@ -10,7 +10,7 @@ loginForm.addEventListener("submit", (SubmitEvent) => {
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;
     localStorage.setItem(USERNAME_KEY, username);
-    greeting.innerText = `Hello, ${username}`;
+    greeting.innerText = `안녕, ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
     loginInput.value = "";
 });

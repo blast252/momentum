@@ -1,4 +1,4 @@
-const IMAGE_CATEGORY = ["nasa", "water", "aviation", "tech", "food"];
+const IMAGE_CATEGORY = ["nasa", "water", "aviation", "tech", "food", "apple", "sea", "wind", "mountain", "Scenery"];
 const IMAGE_BASE_URL = "https://source.unsplash.com/daily";
 
 
