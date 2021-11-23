@@ -21,7 +21,7 @@ function loadGreeting() {
         loginForm.classList.remove(HIDDEN_CLASSNAME);
         greeting.classList.add(HIDDEN_CLASSNAME);
     } else {
-        greeting.innerText = `Hello ${savedUsername}`;
+        greeting.innerText = `안녕, ${savedUsername}`;
         greeting.classList.remove(HIDDEN_CLASSNAME);
         loginForm.classList.add(HIDDEN_CLASSNAME);
     }

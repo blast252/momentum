@@ -12,13 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "SF_IceLemon";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
 .hidden {
   display: none;
@@ -84,9 +77,8 @@ input {
 #login-form input {
   text-align: center;
   font-size: 2.5rem;
-  font-style: italic;
   border-bottom: 0.25rem solid;
-  max-width: 25rem;
+  max-width: 15rem;
 }
 
 #weather {
@@ -176,7 +168,6 @@ button {
   padding-bottom: 5px;
   width: 100%;
   font-size: 1rem;
-  font-style: italic;
 }
 #todo-list {
   color: rgb(255, 255, 255);
