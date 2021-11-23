@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "twaysky";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF_IceLemon";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+html {
+  background: beige;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "CookieRun-Regular", sans-serif;
+  transition: all 0.5s;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+}
+
+#login-form input:first-child,
+#todo-form input {
+  color: rgb(255, 255, 255);
+  font-family: "CookieRun-Regular";
+}
+
+#login-form input:first-child::placeholder,
+#todo-form input::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: "CookieRun-Regular";
+}
+
+#greeting-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  z-index: 1;
+}
+
+#clock {
+  margin-top: 0px;
+  margin-bottom: 0rem;
+  font-size: 6rem;
+  color: rgb(51, 111, 179);
+  text-shadow: 5px -5px 5px rgb(27, 61, 100);
+}
+
+#greeting {
+  margin-top: 0.25rem;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+
+#login-form input {
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: italic;
+  border-bottom: 0.25rem solid;
+  max-width: 25rem;
+}
+
+#weather {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: rgb(27, 61, 100);
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+#weather span:first-child {
+  font-weight: 900;
+  margin-top: 0.1rem;
+}
+
+#weather span {
+  margin-bottom: 0.4rem;
+}
+
+#setup {
+  position: absolute;
+  z-index: 3;
+  top: 1rem;
+  left: 1rem;
+  padding: 00.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "CookieRun-Regular";
+  color: rgb(27, 61, 100);
+}
+
+#quote-placer {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  text-align: center;
+}
+#quote-wrapper {
+  max-width: 70%;
+  color: rgb(255, 255, 255);
+}
+
+#quote {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+#author {
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+#todo-form {
+  width: 15rem;
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+}
+
+#todo-form input {
+  text-align: center;
+  border-bottom: 0.15rem solid;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 1rem;
+  font-style: italic;
+}
+#todo-list {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: "CookieRun-Regular";
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#todo-list button {
+  font-weight: bold;
+  color: rgb(51, 111, 179);
+}

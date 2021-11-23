@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Momentum App</title>
+</head>
+<body>
+    <script async src="./js/background.js"></script>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="greeting-wrapper">
+        <h2 id="clock">00:00:00</h2>
+        <form class="hidden" id="login-form">
+            <input required maxlength="15" type="text" placeholder="What is your name?" />
+            <input type="submit" value="Log In" class="hidden" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required />
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+
+    <div id="setup">
+        <button id="change-username">Change Username</button>
+    </div>
+
+
+
+    <div id="quote-placer">
+        <div id="quote-wrapper">
+            <div id="quote">
+                <span></span>
+            </div>
+            <div id="author">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <script async src="./js/quotes.js"></script>
+
+
+    <script src="./js/greetings.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/setup.js"></script>
+</body>
+</html>
